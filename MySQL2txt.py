@@ -11,7 +11,7 @@ print(cur.description)
 
 print()
 
-file = open('CO_'+time.strftime("%d-%m-%Y")+'.txt',mode = 'w')
+file = open('data/CO_'+time.strftime("%d-%m-%Y")+'.txt',mode = 'w')
 
 for row in cur:
     #print(str(row[2])[:-2] + "\t" + str(row[3])[:-2] + "\r")
